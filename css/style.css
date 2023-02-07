@@ -1,0 +1,301 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/*--------------------*/
+
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+header {
+    display: flex;
+    position: relative;
+    height: 451px;
+    background: linear-gradient(269.78deg, rgba(186, 226, 228, 0.97) 0.18%, #B4DEDF 41.97%, #85BCBA 61.31%, #7FB7B5 99.81%);
+}
+
+.header__text {
+    margin-top: 115px;
+    margin-left: 120px;
+    width: 628px;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.header__text h2 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 125.4%;
+    height: 138px;
+
+}
+
+.header__text p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 134.4%;
+    margin-top: 20px;
+}
+
+.header__image {
+    margin-top: 32px;
+    position: absolute;
+    right: 0;
+    /* top: 32px; */
+}
+
+.container {
+    margin-left: 120px;
+}
+
+.selection {
+    margin-top: 58px;
+    font-weight: 600;
+}
+
+.selection h3 {
+    /* margin-left: 120px; */
+    width: 928px;
+    height: 120px;
+    font-size: 30px;
+    line-height: 134.4%;
+    text-transform: uppercase;
+    color: #000000;
+    /* font-weight: 600; */
+}
+
+.selection button {
+    /* background: #68A19F; */
+    border-radius: 7px;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid #68A19F;
+    height: 50px;
+    height: 50px;
+    margin-top: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 134.4%;
+    /* or 24px */
+
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.selection button:hover {
+    background: #68A19F;
+    color: #FFFFFF;
+}
+
+.button1 {
+    width: 311px;
+}
+
+.button2 {
+    margin-left: 49px;
+    width: 340px;
+}
+
+.work {
+
+    margin-top: 100px;
+    width: 648px;
+}
+
+.work h3 {
+    text-transform: uppercase;
+    color: #68A19F;
+    font-size: 30px;
+    line-height: 134.4%;
+}
+
+.work p {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 127.9%;
+    color: #000000;
+}
+
+.demand {
+    margin-top: 100px;
+}
+
+.demand h3 {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 134.4%;
+    text-transform: uppercase;
+    color: #68A19F;
+}
+
+.demand .items {
+    margin-top: 47px;
+    display: grid;
+    grid-template-columns: 370px 415.31px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 128.69px;
+    grid-row-gap: 50px;
+}
+
+.items .item {
+    display: flex;
+}
+
+.item p {
+    margin-left: 23px;
+    margin-top: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120.9%;
+    /* or 19px */
+
+
+    color: #000000;
+
+}
+
+.item:nth-child(1) p {
+    width: 303px;
+}
+
+.item:nth-child(2) p {
+    width: 350px;
+}
+
+.item:nth-child(3) p {
+    width: 214px;
+}
+
+.item:nth-child(4) p {
+    width: 268px;
+}
+
+.item:nth-child(5) p {
+    width: 223px;
+}
+
+.item:nth-child(6) p {
+    width: 246px;
+}
+
+.item:nth-child(7) p {
+    width: 223px;
+}
+
+.item:nth-child(8) p {
+    width: 253px;
+}
+
+.demand button {
+    width: 427px;
+    height: 50px;
+    color: #000000;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 134.4%;
+    letter-spacing: 0.01em;
+    border-radius: 7px;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid #68A19F;
+    margin-top: 54px;
+    margin-bottom: 79px;
+}
+
+.demand button:hover {
+    background: #68A19F;
+    color: #FFFFFF;
+}
