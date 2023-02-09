@@ -314,6 +314,9 @@ header {
 }
 
 @media(max-width: 850px) {
+    .demand {
+        padding-bottom: 20px;
+    }
     .demand .items {
         display: flex;
         flex-direction: column;
@@ -338,8 +341,69 @@ header {
     .container {
         margin-left: 50px;
     }
+    .header__text h2 {
+        font-weight: 700;
+        font-size: 55px;
+        line-height: 125.4%;
+    
+    }
+    .header__text {
+        margin-top: 60px;
+        margin-left: 80px;
+        width: 628px;
+        color: #FFFFFF;
+        z-index: 1;
+    }
+    .header__text p {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 134.4%;
+        margin-top: 70px;
+    }
+    .button {
+        width: 340px;
+        margin: 0 auto;
+    }
     .selection h3 {
         width: auto;
         height: auto;
+    }
+    .button .button1{
+        margin: 30px auto;
+        display: block;
+    }
+    .button .button2 {
+        margin-top: 0;
+        margin-left: 0;
+        width: 340px;
+    }
+}
+@media(max-width: 530px) {
+
+    .header__text{
+        margin-left: 20px;
+    }
+    .container {
+        margin-left: 20px;
+    }
+    .button {
+        width: 311px;
+        margin: 0 auto;
+    }
+    .demand button {
+        width: 340px;
+    }
+    .button .button1{
+        margin: 30px auto;
+        display: block;
+    }
+    .button .button2 {
+        width: 311px;
+        margin: 30px auto;
+        display: block;
+        width: 311px;
+    }
+    .items .item{
+        width: 300px;   
     }
 }
